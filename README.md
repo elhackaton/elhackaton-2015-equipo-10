@@ -1,30 +1,34 @@
-Proyecto de  Ejemplo
+FreezNet
 ====================
 
 Componentes del Equipo
 ---------------------
 
-(Máximo 4 integrantes por grupo)
-
-+ Nombre del integrante #1 (Desarrollo y Sistemas)
-+ Nombre del integrante #4 (Sistemas)
-+ Nombre del integrante #2 (Diseñador)
-+ Nombre del integrante #3 (Maquetadora)
++ Juan José Salvador (Desarrollo y Redes)
++ Francisco Javier Valero (Desarrollo)
++ Jesús Alberto Rubio (Desarrollo Android)
++ Jesús Teruel (Maker)
 
 Descripción
 -------------
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+FreezNet es un dispositivo IoT independiente que permite mantener un control de temperatura en sistemas de frío, alertándonos ante posibles averías y subidas de temperatura que puedan provocar un malfuncionamiento en el frigorífico o nevera donde se encuentre.
+
+A los datos se puede acceder a través de una aplicación de escritorio multiplataforma, o a través de una aplicación de Android.
 
 Estado del desarrollo actual
 ----------------------------
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+El desarrollo se encuentra en un estado muy temprano. Nuestro prototito es funcional, es decir, es capaz de captar, procesar y enviar datos a través de la red a una base de datos MySQL en la nube, sin embargo, algunas de las funciones que planeamos no se encuentran implementadas, y presenta algunos errores a la hora de enviar información hacia la base de datos.
+
+Los planos y esquemas del proyecto estarán disponibles próximamente.
 
 Especificaciones Técnicas
 --------------------------
-+ Lenguajes de programación utilizados
-+ Sistema de bases de datos
-+ Etc...
++ El proyecto está desarrollado completamente en Python, PHP, Arduino y Java
++ El sistema de bases de datos que utilizamos es MySQL
++ En la visualización de los datos, utilizamos una aplicación Android propia y un monitor en Java (multiplataforma)
 
 Licencia
 ---------
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+![licencia](https://www.gnu.org/graphics/gplv3-127x51.png)
+
+FreezNet se encuentra liberado bajo [licencia GPL3](https://www.gnu.org/licenses/gpl-3.0.txt). 
